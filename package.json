@@ -1,0 +1,34 @@
+{
+  "name": "packeta-react-component-library",
+  "version": "0.0.1",
+  "description": "Elementary and complex ui components for Packeta with styles!",
+  "author": {
+    "name": "Vít Bejček",
+    "email": "vbejcek@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.37",
+    "react": "^18.2.0",
+    "rollup": "^4.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.cjs",
+  "file": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
